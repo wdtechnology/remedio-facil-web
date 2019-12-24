@@ -10,3 +10,41 @@ Todos as novas adições realizadas pelo novo cadastro, após acessar sua nova c
 
 Nesse projeto contém três pastas, pois referem-se a sub domínios do projeto principal.
 
+Foram utilizadas:
+
+- PHP;
+- Estrutura MVC;
+- Sistemas de rotas;
+- Bootstrap;
+- Jquery;
+- Webservice;
+- Composer
+- PhpMailer
+
+
+Algumas telas do sistema
+
+Tela de início
+
+
+![](remediofacil/assets/images/tela1.png)
+
+
+Tela de cadastros de parcerias
+
+
+![](remediofacil/assets/images/tela2.png)
+
+
+Tela de login
+
+
+![](remediofacil/assets/images/tela3.png)
+
+
+Tela de gerenciamento
+
+
+![](remediofacil/assets/images/tela4.png)
+
+
