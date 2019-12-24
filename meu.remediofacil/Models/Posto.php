@@ -18,6 +18,24 @@ class Posto extends Model
         }
         return false;
     }
+    
+    public function gerandoSessao(int $posto_farmacia)
+    {
+        $dados = array();
+
+        $sql = "SELECT posto_id FROM posto
+                WHERE posto_farmacia = :farmacia";
+        $conect = $this->db->prepare($sql);
+        $conect->bindValue(':farmacia', $posto_farmacia);
+        $conect->execute();
+
+        if($conect->rowCount() > 0) {
+            $dados = $conect->fetch();
+            $_SESSION['posto'] = $dados['posto_id'];
+        }
+
+        return $dados;
+    }
 
     public function confirmarPosto(int $id)
     {
