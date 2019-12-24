@@ -1,6 +1,6 @@
 Remédio Fácil
 
-![](remediofacil/assets/images/favicon.PNG)
+![](remediofacil/assets/images/favicon.png)
 
 Um projeto reestruturado do meu tcc, que tem a finalidade de ajudar pessoas que buscam medicamentos a encontrarem nas farmácias de sua região.
 
