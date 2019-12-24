@@ -27,24 +27,24 @@ Algumas telas do sistema
 Tela de início
 
 
-![](remediofacil/assets/images/tela1.png)
+![](remediofacil/assets/images/tela1.PNG)
 
 
 Tela de cadastros de parcerias
 
 
-![](remediofacil/assets/images/tela2.png)
+![](remediofacil/assets/images/tela2.PNG)
 
 
 Tela de login
 
 
-![](remediofacil/assets/images/tela3.png)
+![](remediofacil/assets/images/tela3.PNG)
 
 
 Tela de gerenciamento
 
 
-![](remediofacil/assets/images/tela4.png)
+![](remediofacil/assets/images/tela4.PNG)
 
 
