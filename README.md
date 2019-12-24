@@ -1,4 +1,4 @@
-Remédio Fácil
+# Remédio Fácil
 
 ![](remediofacil/assets/images/favicon.png)
 
