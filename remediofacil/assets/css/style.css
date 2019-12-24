@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: 0;
+}
+body {
+    -ms-overflow-x: hidden;
+    overflow-x: hidden;
+}
+#header {
+    background: #fff;
+    height:70px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 70px;
+    line-height: 70px;
+}
+.logo img {
+    margin-bottom: 8px;
+    width:180px;
+}
+.logo a {
+    color:#222;
+    text-decoration: none;
+}
+.menu {
+    height:70px;
+    align-items: center;
+    justify-content: flex-end;
+    z-index:99;
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+    margin-bottom: 15px;
+    background: #fff;
+}
+.menu li {
+    margin:10px 15px;
+}
+.menu a {
+    color:#222;
+    text-decoration: none;
+    font-size: 18px;
+}
+.menu_img {
+    width:25px;
+    height:30px;
+    margin-bottom: 10px;
+}
+.menu .link_login {
+    background: #4facfe;
+    border-radius: 10px;
+    padding: 10px;
+    color:#fff;
+}
+/*home*/
+.banner_home {
+    background-image: url("../images/capa.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.home_content {
+    color:#fff;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px auto 50px auto;
+    height: 85vh;
+}
+.home_content .mobile_home {
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.home_title h2 {
+    font-size: 45px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.home_text {
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.home_button {
+    text-align: left;
+}
+.home_button a {
+    color:#fff;
+    text-decoration: none;
+    padding:10px 20px;
+    border:2px solid #fff;
+    border-radius: 30px;
+}
+.home_button a:hover {
+    transition: background .6s ease;
+    background: #fff;
+    color:#69b3f4;
+}
+.mobile_home {
+    height: 350px;
+}
+.home_phone {
+    text-align: right;
+}
+#aplicativo {
+    background: #69b3f4;
+}
+.aplicativo_content {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin:40px 0px;
+    color:#fff
+}
+.aplicativo_content img {
+    max-width: 350px;
+}
+.aplicativo_info {
+    background: #fff;
+    padding: 10px;
+    color:#222;
+}
+.app {
+    background: rgba(0, 255, 0, 0.2);
+}
+.app h2 {
+    margin-top:40px;
+    color:#555;
+}
+.app img {
+    height:300px;
+}
+.app_content {
+    margin: 30px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.app_list ul {
+    list-style: none;
+}
+.bloco_content {
+    padding:10px;
+    box-shadow: 2px 2px 5px 0px #ccc;
+    margin: 0px 15px 50px 15px;
+    text-align: center;
+    min-height: 260px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.bloco_img img {
+    max-width: 80px;
+    max-height: 80px;
+}
+.bloco_title {
+    margin:10px;
+    color: #69b3f4;
+}
+.bloco_desc {
+    color: #5c5c5c;
+}
+.banner {
+    background: #5A3D83;
+}
+.banner_content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+}
+.banner_expression {
+    color:#fff;
+    margin-bottom: 90px;
+    text-align: center;
+}
+.banner_button {
+    margin:0 auto;
+}
+.banner_item {
+    text-decoration: none;
+    padding:10px 30px;
+    background: #01BAC3;
+    color:#fff;
+    font-weight: bolder;
+}
+.banner_item:hover {
+    color:#fff;
+}
+.titulo {
+    width:100%;
+    margin:40px auto;
+    text-align:center;
+}
+.trabalho_bg {
+    background: #4facfe;
+    padding:10px;
+    color:#fff;
+}
+.trabalho_bg h3 {
+    padding:10px 0px;
+}
+.form_space {
+    border-radius: 10px;
+    padding:40px 20px;
+    width:50%;
+    border:1px solid #ccc;
+    margin: 40px auto;
+}
+.form_title h4 {
+    margin:40px 0px 0px 0px;
+}
+.form_space .form-control {
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    outline: 0;
+}
+#duvida {
+    background: #4facfe;
+}
+#duvida h3 {
+    color:#fff;
+    margin: 20px 0px 40px 0px;
+}
+.duvida_space {
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.duvida_desc {
+    padding: 10px;
+    color:#fff;
+}
+#sobre {
+    margin-top:20px;
+}
+.sobre_content h3 {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.sobre_content .col {
+    margin: 20px 0px;
+}
+.sobre_content p {
+    font-style: italic;
+    font-weight: 100;
+}
+.qs_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#notfound {
+    background: #4facfe;
+    height: 100vh;
+    width: 100%;
+}
+.notfound_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top:150px;
+}
+.notfound_title {
+    margin-bottom: 10px;
+}
+.notfound_title h2 {
+    color:#fff;
+    font-weight: bolder;
+    font-size: 45px;
+}
+.notfound_button a {
+    text-decoration: none;
+    color:#fff;
+    border:2px solid #fff;
+    padding: 10px 40px;
+    border-radius: 20px;
+}
+.notfound_button a:hover {
+    transition: background .3s ease-in-out;
+    background: #fff;
+    color:#222;
+}
+.top_space {
+    margin-top: 30px;
+    margin-bottom: -20px;
+}
+.email_text h5 {
+    margin-top:60px;
+    color:#5c5c5c;
+    text-align:center;
+}
+#footer {
+    padding:10px;
+    background: #eee;
+    color:#fff;
+    min-height: 150px;
+}
+.esqueci_bg {
+    background: #4facfe;
+    padding: 10px;
+}
+.container_reset {
+    margin:150px auto 30px auto;
+    max-width: 600px;
+    border:1px solid #ccc;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+.container_reset .form {
+    width: 100%;
+    margin:auto;
+}
+.reset_text p {
+    text-align: justify;
+    color:#5c5c5c;
+}
+
+@media (max-width: 700px) {
+    .home_title,
+    .home_desc,
+    .home_button,
+    .home_phone {
+        text-align: center;
+        margin: auto;
+        width:100%;
+    }
+}

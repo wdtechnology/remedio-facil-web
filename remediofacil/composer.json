@@ -1,0 +1,21 @@
+{
+  "remediofacil-web": "remediofacil-web",
+  "description": "Reestruturando projeto do meu TCC. Que tem por finalidade ajudar pessoas a encontrarem remédios em farmácias",
+  "authors": [
+    {
+      "name": "Samuel Vinicius dos Santos da Silva",
+      "email": "sam.vss111@gmail.com"
+    }
+  ],
+  "require": {
+    "monolog/monolog": "1.0.*",
+    "phpmailer/phpmailer": "~6.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Controllers\\": "Controllers/",
+      "Models\\": "Models/",
+      "Core\\": "Core/"
+    }
+  }
+}
