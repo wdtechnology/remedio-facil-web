@@ -46,7 +46,9 @@ class PostoController extends Controller
             $posto = new Posto();
 
             if($id != 1) {
-                $posto->create($id);
+                if($posto->create($id)) {
+                    $posto->gerandoSessao($id);
+                }
                 header("Location: ".BASE_URL.'posto');
                 exit;
             }            
@@ -65,7 +67,7 @@ class PostoController extends Controller
         $posto = new Posto();
 
         $data['info'] = $farmacia->getFarmacia($_SESSION['user_farmacia']);
-        $data['envio'] = $envio->getEnvio(1);
+        $data['envio'] = $envio->getEnvio($_SESSION['posto']);
         $data['existe'] = $posto->confirmarPosto($_SESSION['user_farmacia']);
 
         $this->loadTemplate('posto_envio', $data);
@@ -128,7 +130,7 @@ class PostoController extends Controller
         $posto = new Posto();
 
         $data['info'] = $farmacia->getFarmacia($_SESSION['user_farmacia']);
-        $data['recebimento'] = $recebimento->getRecebimentos(1);
+        $data['recebimento'] = $recebimento->getRecebimentos($_SESSION['posto']);
         $data['existe'] = $posto->confirmarPosto($_SESSION['user_farmacia']);
 
         $this->loadTemplate("andamento", $data);
@@ -143,7 +145,7 @@ class PostoController extends Controller
         $posto = new Posto();
 
         $data['info'] = $farmacia->getFarmacia($_SESSION['user_farmacia']);
-        $data['doacao'] = $doacao->getDoacoes(1);
+        $data['doacao'] = $doacao->getDoacoes($_SESSION['posto']);
         $data['existe'] = $posto->confirmarPosto($_SESSION['user_farmacia']);
 
         $this->loadTemplate('concluidas', $data);
