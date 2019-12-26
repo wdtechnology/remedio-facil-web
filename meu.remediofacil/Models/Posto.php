@@ -32,9 +32,8 @@ class Posto extends Model
         if($conect->rowCount() > 0) {
             $dados = $conect->fetch();
             $_SESSION['posto'] = $dados['posto_id'];
+            return true;
         }
-
-        return $dados;
     }
 
     public function confirmarPosto(int $id)
